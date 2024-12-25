@@ -42,7 +42,7 @@ a {
 }
 
 .oneleft>button {
-    border:none;
+    border-width:0px;
 }
 
 .two {
