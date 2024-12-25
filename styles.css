@@ -18,6 +18,11 @@ body {
     padding:0px 10vw;
 }
 
+.zeroright {
+    display: flex;
+    gap: 20px;
+}
+
 a {
         text-decoration: none;
         color: #E5E7EB;
@@ -29,7 +34,7 @@ a {
     justify-content: center;
     align-items: center;
     padding:0px 10vw;
-    gap:12vw;
+    gap:80px;
 }
 
 .oneleft>h1 {
@@ -60,12 +65,16 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .twoimages>img{
-    flex:1;
+    flex:0 0 auto;
     border: 2px solid #3882F6;
-    border-radius: 15%;
+    border-radius: 5px;
+    max-height: 200px;
+    max-width: 200px;
+    overflow:hidden;
 }
 
 .twoimages>p{
@@ -103,7 +112,7 @@ a {
 
 .cta{
     flex:auto;
-    margin:100px;
+    margin:100px 0;
     background-color: #3882F6;
     display: flex;
     align-items: center;
@@ -117,8 +126,9 @@ a {
 button {
     background-color: #3882F6;
     color:white;
-    padding:5px 20px;
+    padding:7px 30px;
     border-radius: 5px;
+    font-weight: 900;
 }
 
 .ctaright>button {
